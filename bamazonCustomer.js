@@ -28,7 +28,6 @@ function displayAll() {
     });
 }
 
-
 function userSelection() {
     inquirer
         .prompt([{
@@ -57,7 +56,7 @@ function userSelection() {
                     var updatedStockQuantity = (itemDetails.stock_quantity - quantity);
                     console.log("Updated stock quantity: " + updatedStockQuantity);
                     var updateQuery = "UPDATE products SET stock_quantity = " + updatedStockQuantity + " WHERE item_id = " + item;
-                    console.log(updateQuery);
+                    // console.log(updateQuery);
                     // send query to mysql
                     connection.query(updateQuery, function(err, res) {
                         if (err) throw err;
