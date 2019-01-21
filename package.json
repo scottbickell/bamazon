@@ -2,10 +2,10 @@
   "name": "bamazon",
   "version": "1.0.0",
   "description": "Node.js & MySQL CLI app",
-  "main": "app.js",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon bamazonCustomer.js"
   },
   "repository": {
     "type": "git",
