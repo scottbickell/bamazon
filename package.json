@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Node.js & MySQL CLI app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbickell/bamazon.git"
+  },
+  "author": "Scott Bickell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottbickell/bamazon/issues"
+  },
+  "homepage": "https://github.com/scottbickell/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9"
+  }
+}
